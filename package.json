@@ -1,0 +1,23 @@
+{
+  "name": "audio",
+  "version": "1.0.0",
+  "description": "none lol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/playscript-js/al.git"
+  },
+  "keywords": [
+    "audioluv"
+  ],
+  "author": "ivy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/playscript-js/al/issues"
+  },
+  "homepage": "https://github.com/playscript-js/al#readme"
+}
