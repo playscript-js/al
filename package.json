@@ -21,6 +21,11 @@
   },
   "homepage": "https://github.com/playscript-js/al#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.21",
+    "youtube-search-api": "^1.0.9",
+    "ytdl-core": "^4.5.0"
   }
 }
