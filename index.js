@@ -17,7 +17,7 @@ yt.GetListByKeyword(_.replace(req.params.query,"+"," "),false)
 
 app.get("/video/:query",(req,res)=>{
 url.getInfo(req.params.query)
-.then(e=>{res.json(e)})
+.then(e=>{res.send(e.formats[e.formats.length-1].url||"null")})
 })
 
 app.listen(process.env.PORT||3000)
